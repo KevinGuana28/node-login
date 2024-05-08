@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="css/StylesLogin.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a href=""><img src="image/LogoAppTurismo.png" alt="logo"></a>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Iniciar Sesión</h2>
+        <form id="formLogin" action="/login" method="POST">
+            <div class="form-control">
+                <input type="text" id="user" name="user">
+                <label>Usuario:</label>
+            </div>
+            <div class="form-control">
+                <input type="password" id="pass" name="pass">
+                <label>Contraseña:</label>
+            </div>
+            <button type="submit">Login</button>
+            <div class="footer-container">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://mail.google.com/" target="_blank"><i class="fab fa-google"></i></a></li>
+                </ul>
+            </div>
+        </form>
+        <p>¿Eres nuevo en Travel Ecuador? <a href="register">Registrarse</a></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <% if(alert) { %>
+        <script>
+            Swal.fire({
+                title: '<%= alertTitle %>',
+                text: '<%= alertMessage %>',
+                icon: '<%= alertIcon %>',
+                showConfirmButton: <%= showConfirmButton %>,
+                timer: <%= timer %>
+            }).then(()=>{
+                window.location = '<%= ruta %>'
+            });
+        </script>
+    <% } %>
+
+</body>
+</html>

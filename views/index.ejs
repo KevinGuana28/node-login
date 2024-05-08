@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="css/StylesMaster.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+
+        <video autoplay muted loop>
+            <source src="image/Galapagos.mp4" type="video/mp4">
+        </video>
+        <nav class="navbar">
+            <div class="left">
+                <img src="image/LogoAppTurismo-removebg-preview.png" alt="">
+            </div>
+            <div class="right">
+                <% if (user) { %>
+                    <span> <%= user.name %> </span> 
+                <% } %>
+                <button><a href="logout">Cerrar Sesion</a></button>
+            </div>
+        </nav>
+
+
+        <div class="title">
+            <div class="content">
+                <div class="content-container">
+                    <h1>Descubre, planifica y disfruta de experiencias inolvidables</h1>
+                    <br />
+                    <h2>Y que cada viaje sea perfecto para ti</h2>
+                    <br />
+                </div>
+            </div>
+        </div>
+
+        <div class="body-container">
+            <div class="title">
+                <h1>"Cada rincón tiene su propia historia, y eso es lo que hace que cada viaje sea verdaderamente especial"</h1>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-alejandra-téllez-venegas-14087260.jpg" />
+                        <div class="image-name"><strong>LAGUNA DE QUILOTOA, </strong>COTOPAXI</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-abigail-ramirez-19085803.jpg" />
+                        <div class="image-name"><strong>SAN CRISTOBAL, </strong>GALAPAGOS</div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-christian-álvarez-9791408.jpg" />
+                        <div class="image-name"><strong>RUCU PICHINCHA, </strong>PICHINCHA</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-danny-lema-18276589.jpg" />
+                        <div class="image-name"><strong>CERRO SANTA ANA, </strong>GUAYAS</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-iam-luisao-19298007.jpg" />
+                        <div class="image-name"><strong>MALECÓN 2000, </strong>GUAYAS</div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-iam-luisao-19298070.jpg" />
+                        <div class="image-name"><strong>LA ROTONDA, </strong>GUAYAS</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-john-arellano-19916617.jpg" />
+                        <div class="image-name"><strong>ISLA ISABELA, </strong>GALAPAGOS</div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-john-arellano-19961158.jpg" />
+                        <div class="image-name"><strong>VOLCÁN CHIMBORAZO, </strong>CHIMBORAZO</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img alt="" src="image/pexels-tommaso-picone-18309489.jpg" />
+                        <div class="image-name"><strong>CENTRO HISTÓRICO, </strong>PICHINCHA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body-container2">
+            <div class="content">
+                <div class="image-description-container">
+                    <div class="description">
+                        <h2>Región Sierra</h2>
+                        <p>La región Sierra de Ecuador se caracteriza por su impresionante cadena montañosa de los Andes,</p>
+                        <p>que atraviesa el país de norte a sur. Es conocida por su clima templado, paisajes espectaculares</p>
+                        <p>volcanes imponentes y una rica diversidad de flora y fauna. En esta región se encuentran ciudades<p>
+                        <p>importantes como Quito, la capital del país, y Cuenca, reconocida por su arquitectura colonial.<p>
+                        <p>Además, la Sierra ecuatoriana alberga una gran cantidad de parques nacionales, reservas naturales<p>
+                        <p>y pueblos pintorescos que ofrecen oportunidades para el turismo y la aventura.</p>
+                    </div>
+                    <div class="image-container1">
+                        <img src="image/pexels-john-arellano- Sierra.jpg" alt="Imagen" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body-container3">
+            <div class="content">
+                <div class="image-description-container">
+                    <div class="image-container2">
+                        <img src="image/pexels-danny-cortéz-Costa.jpg" alt="Imagen" class="rounded-image">
+                    </div>
+                    <div class="description">
+                        <h2>Región Costa</h2>
+                        <p>La región Costa de Ecuador es una fascinante franja costera que se extiende a lo largo del</p>
+                        <p>litoral occidental del país,bordeando el Océano Pacífico. Caracterizada por su exuberante</p>
+                        <p>vegetación, playas vírgenes, encantadoras ciudades portuarias y una rica herencia cultural<p>
+                        <p>la costa ecuatoriana es un destino turístico diverso y vibrante. Desde las soleadas playas de<p>
+                        <p>arena blanca hasta las cautivadoras ciudades coloniales, la región ofrece una variedad de<p>
+                        <p>experiencias únicas para todos los gustos y preferencias.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body-container2">
+            <div class="content">
+                <div class="image-description-container">
+                    <div class="description">
+                        <h2>Región Amazónica</h2>
+                        <p>La región amazónica de Ecuador, ubicada al este del país, se caracteriza por su exuberante </p>
+                        <p>vegetación, biodiversidad extraordinaria y diversidad cultural. Hogar de especies endémicas y en</p>
+                        <p>peligro de extinción, sus ríos principales, como el Amazonas y el Napo, sustentan comunidades locales<p>
+                        <p>y ofrecen oportunidades de ecoturismo. Con selvas vírgenes y una rica herencia indígena,<p>
+                        <p>esta región es un destino ideal para la exploración de la selva, avistamiento de aves y encuentro<p>
+                        <p>con tribus locales.</p>
+                    </div>
+                    <div class="image-container1">
+                        <img src="image/pexels-john-arellano-Oriente.jpg" alt="Imagen" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body-container3">
+            <div class="content">
+                <div class="image-description-container">
+                    <div class="image-container2">
+                        <img src="image/pexels-ata-y-Galapagos.jpg" alt="Imagen" class="rounded-image">
+                    </div>
+                    <div class="description">
+                        <h2>Región Insular</h2>
+                        <p>La región insular de Ecuador, compuesta por las famosas Islas Galápagos, es un paraíso natural</p>
+                        <p>único en el mundo. Conocidas por su increíble diversidad biológica y su papel en la teoría de</p>
+                        <p>la evolución de Darwin, estas islas volcánicas albergan una sorprendente variedad de especies<p>
+                        <p>endémicas y vida marina. Sus paisajes surrealistas, playas de arena blanca y aguas cristalinas<p>
+                        <p>hacen de las Galápagos un destino imprescindible para los amantes de la naturaleza y la aventura.<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <ul class="social-icons">
+                <li><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <!-- Agrega más íconos de redes sociales según sea necesario -->
+            </ul>
+            <br />
+            <p>&copy; @DateTime.Now.Year - Travel Ecuador. Todos los derechos reservados.</p>
+        </div>
+
+    </div>      
+</body>
+</html>
