@@ -11,10 +11,10 @@ module.exports = {
     "operatorsAliases": 0
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "357970_admin",
+    "password": "1nopuedes2",
+    "database": "databases-home_login",
+    "host": "mysql-databases-home.alwaysdata.net",
     "dialect": "mysql",
     "operatorsAliases": 0
   },
