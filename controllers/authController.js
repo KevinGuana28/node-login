@@ -41,7 +41,7 @@ exports.login = async(req, res)=>{
             res.render('login',{
                 alert:true,
                 alertTitle: "Advertencia",
-                alertMessage: "Ingrese un ususario y contraseña",
+                alertMessage: "Ingrese un usuario y contraseña",
                 alertIcon: 'info',
                 showConfirmButton: true,
                 timer: false,
